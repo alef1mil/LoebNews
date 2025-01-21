@@ -15,6 +15,10 @@ app.get("/globais/noticias/familha-com-membros-eleitos-em-2024-perderao-benefios
     res.sendFile(path.join(__dirname,'public' ,'not', "jklp.html"));
 })
 
+app.get("/globais/bolsa-familha-fevereiro-2025", (req, res) =>  {
+    res.sendFile(path.join(__dirname,'public' ,'not', "ngfd.html"));
+})
+
 app.listen(3000, () => {
     console.log("✔ Iniciado com sucesso na porta 3000")
 })
